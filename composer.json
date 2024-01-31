@@ -11,7 +11,7 @@
             "role": "Developer"
         }
     ],
-	"require": {
+    "require": {
         "php": "^7.3 || ^7.4 || ^8.0 || ^8.1",
         "ext-curl": "*",
         "ext-json": "*"
@@ -24,12 +24,12 @@
         "fakerphp/faker": "^1.23",
         "ergebnis/composer-normalize": "^2.42"
     },
-	"autoload-dev": {
-		"psr-4": {
-			"PageAccessRedirect\\Tests\\": "tests/"
-		}
-	},
-	"scripts": {
+    "autoload-dev": {
+        "psr-4": {
+            "PageAccessRedirect\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
         "codefix": [
             "composer php-cs-fixer",
             "composer install --no-dev"
@@ -56,19 +56,19 @@
             "vendor/bin/phpunit",
             "composer install --no-dev"
         ],
-		"test-covers": [
-	    "@putenv XDEBUG_MODE=coverage",
+        "test-covers": [
+            "@putenv XDEBUG_MODE=coverage",
             "composer install -q",
             "vendor/bin/phpunit --coverage-html coverage-report"
         ]
     },
-	"config": {
-		"allow-plugins": {
+    "config": {
+        "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "ergebnis/composer-normalize": true
         },
-		"optimize-autoloader": true,
-		"preferred-install": "dist",
-		"sort-packages": true
-	}
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
 }
