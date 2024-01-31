@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/devuri/page-access-redirect/compare/v0.3.1...v0.3.2) (2024-01-31)
+
+
+### Bug Fixes
+
+* update class name SelectivePageAccess ([4653a0b](https://github.com/devuri/page-access-redirect/commit/4653a0be87b00b76af23d076c6715fc784071fc1))
+
 ## [0.3.1](https://github.com/devuri/page-access-redirect/compare/v0.3.0...v0.3.1) (2024-01-31)
 
 
