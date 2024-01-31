@@ -25,4 +25,4 @@ if ( ! \defined( 'ABSPATH' ) ) {
 require_once PAR_DIR_PATH . 'inc/SelectivePageAccess.php';
 
 // init class.
-PageAccessRedirect\PageAccess::init();
+PageAccessRedirect\SelectivePageAccess::init();
