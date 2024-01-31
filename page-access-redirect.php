@@ -3,7 +3,7 @@
  * Plugin Name:       Page Access Redirect
  * Plugin URI:        https://wpbrisko.com/wordpress-plugins/
  * Description:       Allows selection of pages that should be accessible, redirecting all others to the homepage.
- * Version:           0.3.1
+ * Version:           0.3.2
  * Requires at least: 5.3.0
  * Requires PHP:      7.3.5
  * Author:            uriel
@@ -25,4 +25,4 @@ if ( ! \defined( 'ABSPATH' ) ) {
 require_once PAR_DIR_PATH . 'inc/SelectivePageAccess.php';
 
 // init class.
-PageAccessRedirect\PageAccess::init();
+PageAccessRedirect\SelectivePageAccess::init();

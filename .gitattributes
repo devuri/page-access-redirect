@@ -10,6 +10,7 @@
 /example                       export-ignore
 phpunit.xml                    export-ignore
 CHANGELOG.md                   export-ignore
+README.md                      export-ignore
 phpdoc.xml                     export-ignore
 psalm.xml                      export-ignore
 phpcs.xml                      export-ignore

@@ -2,7 +2,7 @@
 
 namespace PageAccessRedirect;
 
-class PageAccess
+class SelectivePageAccess
 {
     public const PAGE_ACCESS_OPTION = 'spr_settings';
 
@@ -15,7 +15,7 @@ class PageAccess
 
 	public static function init()
 	{
-		return new PageAccess();
+		return new self();
 	}
 
     public function create_settings_page(): void

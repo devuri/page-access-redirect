@@ -2,7 +2,7 @@
     "name": "devuri/page-access-redirect",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-only",
-    "description": "Allows selection of pages that should be accessible",
+    "description": "Allows selection of pages that should be accessible, redirecting all others to the homepage.",
     "authors": [
         {
             "name": "Uriel Wilson",
