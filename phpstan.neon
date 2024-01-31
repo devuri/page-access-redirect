@@ -17,4 +17,5 @@ parameters:
         - vendor/*
     paths:
         - .
+        - inc
         - tests

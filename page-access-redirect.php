@@ -22,7 +22,7 @@ if ( ! \defined( 'ABSPATH' ) ) {
 // Setup access to the plugin dir path.
 \define( 'PAR_DIR_PATH', plugin_dir_path( __FILE__ ) );
 
-require_once PAR_DIR_PATH . 'SelectivePageAccess.php';
+require_once PAR_DIR_PATH . 'inc/SelectivePageAccess.php';
 
 // init class.
 PageAccessRedirect\PageAccess::init();
